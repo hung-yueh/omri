@@ -108,7 +108,7 @@ nav {
     height: 100vh;
     width: 100%;
     max-width: 100%; /* Override default section max-width */
-    background: linear-gradient(rgba(13, 44, 84, 0.7), rgba(13, 44, 84, 0.7)), url('assets/hero.png');
+    background: linear-gradient(rgba(13, 44, 84, 0.7), rgba(13, 44, 84, 0.7)), url('assets/hero20251208.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax effect */
