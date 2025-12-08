@@ -49,7 +49,7 @@ nav {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 0;
 }
 
 .logo-text-stack {
@@ -252,6 +252,9 @@ section {
 #contact {
     background: var(--primary-color);
     color: var(--white);
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 #contact .section-title {
@@ -263,6 +266,8 @@ section {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .contact-info {
