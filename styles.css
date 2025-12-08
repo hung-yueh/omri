@@ -364,4 +364,8 @@ footer {
     .hero-content h1 {
         font-size: 2rem;
     }
+
+    #hero {
+        background-attachment: scroll;
+    }
 }
