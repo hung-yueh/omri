@@ -1,0 +1,8 @@
+# robots.txt for 海外人力資源管理顧問有限公司
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hung-yueh.github.io/omri/sitemap.xml
