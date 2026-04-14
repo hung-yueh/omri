@@ -261,6 +261,44 @@
     <section id="news" class="hidden">
         <h2 class="section-title">最新消息</h2>
         <div class="news-grid">
+            <article class="news-card" data-lightbox>
+                <div class="news-image">
+                    <img src="assets/news_helper_eligibility.jpg" alt="雇主聘僱外國人從事家庭幫傭工作 - 家庭成員條件與點數規定" loading="lazy">
+                    <div class="news-category">法規更新</div>
+                </div>
+                <div class="news-content">
+                    <div class="news-meta">
+                        <span class="news-date"><i class="fa-regular fa-calendar"></i> 2026-04-13</span>
+                    </div>
+                    <h3>家庭幫傭申請條件更新：家庭成員點數計算規定一覽</h3>
+                    <p>勞動部公布最新家庭幫傭申請之家庭成員條件與點數對照表。雇主聘僱外國人從事家庭幫傭工作，需符合累計點數滿4點之規定。小孩、父母祖父母及監護人點數依年齡與狀況分級計算，累計點數滿4至9點就安費5000元，滿10點以上就安費2000元。即日起適用新制標準。</p>
+                    <script type="application/ld+json">
+                    {
+                      "@context": "https://schema.org",
+                      "@type": "NewsArticle",
+                      "headline": "家庭幫傭申請條件更新：家庭成員點數計算規定一覽",
+                      "datePublished": "2026-04-13",
+                      "dateModified": "2026-04-13",
+                      "author": {
+                        "@type": "Organization",
+                        "name": "海外人力資源管理顧問有限公司"
+                      },
+                      "publisher": {
+                        "@type": "Organization",
+                        "name": "海外人力資源管理顧問有限公司",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://hung-yueh.github.io/omri/assets/logo.png"
+                        }
+                      },
+                      "image": "https://hung-yueh.github.io/omri/assets/news_helper_eligibility.jpg",
+                      "articleSection": "法規更新",
+                      "keywords": "家庭幫傭,家庭成員條件,點數計算,外籍勞工,就安費"
+                    }
+                    </script>
+                </div>
+            </article>
+
             <article class="news-card">
                 <div class="news-image">
                     <img src="assets/news_20251202.png" alt="職業安全衛生法修正案 - 外籍勞工保護升級" loading="lazy">
@@ -455,6 +493,13 @@
             </div>
         </div>
     </section>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox-overlay" id="lightbox-overlay">
+        <button class="lightbox-close" id="lightbox-close" aria-label="關閉">&times;</button>
+        <img id="lightbox-img" src="" alt="">
+        <span class="lightbox-hint">點擊任意處關閉</span>
+    </div>
 
     <!-- Footer -->
     <footer>
